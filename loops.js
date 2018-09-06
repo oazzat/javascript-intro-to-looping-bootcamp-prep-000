@@ -23,7 +23,7 @@ function whileLoop(num){
 
 function doWhileLoop(array){
   do{
-    delete array[array.length-1]
+    array.pop()
   }
   while(array.length>0)
 }
